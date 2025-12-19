@@ -106,7 +106,7 @@ const App: React.FC = () => {
             <div className="bg-indigo-600/20 border border-indigo-500/30 rounded-3xl p-6 flex flex-col md:flex-row items-center gap-6 shadow-2xl overflow-hidden relative">
               <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/10 rounded-full -mr-16 -mt-16 blur-3xl"></div>
               <div className="flex-shrink-0 bg-indigo-500/20 p-4 rounded-full border border-indigo-500/50">
-                <span className="text-4xl">📚</span>
+                st.header("📚")
               </div>
               <div>
                 <h2 className="text-xl font-kids text-indigo-300">Holiday Mission Instructions</h2>
@@ -345,4 +345,5 @@ const App: React.FC = () => {
 };
 
 export default App;
+
 
