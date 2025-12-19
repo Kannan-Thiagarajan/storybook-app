@@ -94,7 +94,7 @@ const App: React.FC = () => {
         {/* Activity Highlight Title */}
         <div className="no-print mb-8 text-center animate-in fade-in zoom-in duration-1000">
             <h2 className="text-2xl md:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-200 to-amber-500 tracking-tighter uppercase drop-shadow-[0_0_15px_rgba(251,191,36,0.3)]">
-                🚀 {ACTIVITY_TITLE} 🚀
+                f"🚀 {ACTIVITY_TITLE} 🚀"
             </h2>
             <div className="h-1 w-32 bg-amber-500 mx-auto mt-2 rounded-full shadow-[0_0_10px_rgba(245,158,11,1)]"></div>
         </div>
@@ -345,3 +345,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+
